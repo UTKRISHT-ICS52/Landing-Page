@@ -1,0 +1,194 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, orange, rgb(214, 8, 135));
+    padding: 10px 20px;
+    color: white;
+    align-items: center;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consult-btn {
+    background: #ff0099;
+    color: rgb(20, 19, 19);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(234, 213, 213);
+    color: black;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    background-image: url('https://www.skillstraininguk.com/wp-content/uploads/2021/06/STUK-Digital-Media-bg1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(to right, orange, rgb(214, 8, 135));
+    color: white;
+}
+
+.feature {
+    text-align: center;
+}
+
+.about {
+    text-align: left;
+    padding: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    background: #f9f9f9;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/015/393/411/original/thoughtful-person-smart-man-thinking-or-solving-problem-pensive-guy-surrounded-by-question-mark-confused-man-thinks-trying-to-find-a-solution-confusing-situation-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.about button {
+    background: #ff0099;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(242, 234, 237);
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: rgb(79, 78, 129);
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+
+
+
+
+}
+
+.box-img{
+    height: 300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.box-content p {
+    color: antiquewhite;
+
+
+}
+
+/** footer **/
+footer {
+    margin-top: 15px;
+}
+.footer-panel1 {
+    background-color: rgb(43, 142, 162);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+
+}
+
+.footer-panel2{
+    background-color: rgb(223, 134, 209);
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+
+
+}
+ul {
+    margin-top: 20px;
+
+}
+
+ul a {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: brown;
+
+}
+
+.footer-panel3{
+    border-top: 0.5px solid white;
+    background-color: rgb(114, 113, 170);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+     
+
+}
